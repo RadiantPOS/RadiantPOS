@@ -1,0 +1,194 @@
+[
+    {
+        "data_text": "Kids Dish",
+        "data_shortened": "KD DISH",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "class": "kids-scoop",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "green",
+        "txtColor": "#000",
+        "borderColor": "#007E02"
+    },
+    {
+        "data_text": "Kids Cone",
+        "data_shortened": "KD CONE",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "class": "kids-scoop",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "green",
+        "txtColor": "#000",
+        "borderColor": "#007E02"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Vanilla",
+        "data_shortened": "VAN",
+        "default": "VAN",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#fff",
+        "txtColor": "#000"
+    },
+    {
+        "data_text": "Chocolate",
+        "data_shortened": "CHO",
+        "default": "CHO",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#542c19",
+        "txtColor": "#fff",
+        "borderColor": "#69361e"
+    },
+    {
+        "data_text": "FOD",
+        "data_shortened": "FOD",
+        "default": "FOD",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#832222",
+        "txtColor": "#fff",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Cho/Van",
+        "data_shortened": "Cho/Van",
+        "default": "CHO/VAN",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "green",
+        "txtColor": "#fff",
+        "borderColor": "#007E02"
+    },
+    {
+        "data_text": "Van/FOD",
+        "data_shortened": "Van/FOD",
+        "default": "VAN/FOD",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "green",
+        "txtColor": "#fff",
+        "borderColor": "#007E02"
+    },
+    {
+        "data_text": "Cho/FOD",
+        "data_shortened": "Cho/FOD",
+        "default": "CHO/FOD",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "green",
+        "txtColor": "#fff",
+        "borderColor": "#007E02"
+    },
+    {
+        "blankSpace": true,
+        "quantity": 1
+    },
+    {
+        "data_text": "Add a Topping <br>->",
+        "data_shortened": "",
+        "icon": "",
+        "class": "dish-edit-btn open-mixin-container",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "cyan",
+        "borderColor": "#00cccc",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Remove Custard Token",
+        "data_shortened": "Custard Token",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Flip To Dish",
+        "data_shortened": "Flip to Dish",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Dessert Cond",
+        "data_shortened": "",
+        "icon": "",
+        "class": "mainitem-edit-btn desert-cond-kids",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "red",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "icon": "",
+        "class": "return-button kidsReturn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

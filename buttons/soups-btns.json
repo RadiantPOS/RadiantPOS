@@ -1,0 +1,122 @@
+[
+    {
+        "data_text": "Potato w/Bacon",
+        "data_shortened": "Potato Bacon",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "0.00",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Boston Clam Chowder",
+        "data_shortened": "Clam Chowder",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Broccoli Cheese",
+        "data_shortened": "Broccoli Chz",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Chicken Noodle Soup",
+        "data_shortened": "Chicken Noodle",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Stuffed Green Pepper",
+        "data_shortened": "Green Pepper",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Tomato Florentine",
+        "data_shortened": "Tomato Florentine",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Vegetable Beef",
+        "data_shortened": "Veg. Beef",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "data_text": "Wild Rice and Chicken",
+        "data_shortened": "Wild Rice",
+        "icon": "",
+        "class": "subitem-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f",
+        "submenu": "soups"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "data_shortened": "PLAIN",
+        "icon": "",
+        "class": "return-button soups-return",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

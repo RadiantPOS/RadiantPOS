@@ -1,0 +1,466 @@
+[
+    {
+        "data_text": "WI Cheddar Cheese Sauce",
+        "data_shortened": "CHZ SAUCE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "0.99",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "orange",
+        "borderColor": "#FFD100",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "Ranch",
+        "data_shortened": "SIDE RANCH",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "BBQ",
+        "data_shortened": "SIDE BBQ",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "Honey Mustard",
+        "data_shortened": "SIDE HON MUST",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "Blue Cheese",
+        "data_shortened": "SIDE BLU CHZ",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "Buffalo Sauce",
+        "data_shortened": "SIDE BUFF",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 1,
+        "extraMargin": false
+    },
+    {
+        "data_text": "Horse<br>radish<br>Packet",
+        "data_shortened": "SIDE HORSE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "data_text": "Hot Sauce Packet",
+        "data_shortened": "HT SAUCE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2",
+        "submenu": "SOD"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Dinner Roll",
+        "data_shortened": "DINNER ROLL",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Butter Packet",
+        "data_shortened": "BTR PKT",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Gravy",
+        "data_shortened": "Gravy",
+        "icon": "0.30",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Beef Gravy",
+        "data_shortened": "Beef Gravy",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "0.30",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Sour Cream",
+        "data_shortened": "SR CREAM",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Malt Vinegar",
+        "data_shortened": "MALT VINEGAR",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },     
+    {
+        "data_text": "Pickles",
+        "data_shortened": "SIDE PICKELS",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Mayo",
+        "data_shortened": "MAYO",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Crouton",
+        "data_shortened": "CROUTONS",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Jala<br>peno",
+        "data_shortened": "JALAPENO",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "data_text": "Mari<br>nara",
+        "data_shortened": "SIDE MARINARA",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "green",
+        "borderColor": "#30C260"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },   
+    {
+        "data_text": "Tartar Sauce",
+        "data_shortened": "SIDE TARTAR",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "Cocktal Sauce",
+        "data_shortened": "SIDE COCKTAIL",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "Rasp<br>Vinai<BR>grette",
+        "data_shortened": "SIDE RASP. VINEGRETTE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "Culvers <BR>Vinai<BR>grette",
+        "data_shortened": "SIDE CULVR. VINAIGRETTE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "1000 ISLAND",
+        "data_shortened": "SIDE 1000 ISLAND",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "French",
+        "data_shortened": "SIDE FRENCH",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#306822",
+        "borderColor": "#40892E"
+    },
+    {
+        "data_text": "Extra Sauce Chrg",
+        "data_shortened": "EXTRA SAUCE",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "0.25",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Ketchup Packet",
+        "data_shortened": "KETCHUP PKT",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "red",
+        "borderColor": "#FF5050"
+    },
+    {
+        "data_text": "Salt Packet",
+        "data_shortened": "SALT PKT",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "red",
+        "borderColor": "#FF5050"
+    },
+    {
+        "data_text": "Pepper Packet",
+        "data_shortened": "PEPPER PKT",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "red",
+        "borderColor": "#FF5050"
+    },
+    {
+        "data_text": "Mustard Packet",
+        "data_shortened": "MUSTRD. PKT",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "red",
+        "borderColor": "#FF5050"
+    },
+    {
+        "blankSpace": true,
+        "quantity": 2,
+        "extraMargin": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "No Ketchup Packets",
+        "data_shortened": "NO KTCHP PK",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "red",
+        "borderColor": "#FF5050"
+    },
+    {
+        "data_text": "Side of Cashews",
+        "data_shortened": "SIDE OF CASHEWS",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "blue",
+        "borderColor": "#195DE5"
+    },
+    {
+        "data_text": "Side of Pecans",
+        "data_shortened": "SIDE OF PECANS",
+        "icon": "",
+        "class": "side-of-display-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": "blue",
+        "borderColor": "#195DE5"
+    },
+    {
+        "blankSpace": true,
+        "quantity": 3,
+        "extraMargin": false
+    },
+    {
+        "data_text": "Special Inst",
+        "icon": "",
+        "class": "menu-button-white special-inst SOD",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "data_shortened": "PLAIN",
+        "icon": "",
+        "class": "return-button SOD",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

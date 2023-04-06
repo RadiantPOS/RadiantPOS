@@ -1,0 +1,431 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant POS Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon.ico">
+    <script src="pos.js" defer></script>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar-buttons">
+            <div class="sidebar-button active" id="burgers"><button>BURGER/CKN/SAND</button></div>
+            <div class="sidebar-button" id="seafood"><button>SEAFOOD/SALAD</button></div>
+            <div class="sidebar-button" id="kids"><button>KIDS</button></div>
+            <div class="sidebar-button" id="sides"><button>SIDES</button></div>
+            <div class="sidebar-button" id="drinks"><button>DRINKS</button></div>
+            <div class="sidebar-button" id="supersunday"><button>DESSERT</button></div>
+            <div class="sidebar-button" id="other"><button>OTHER</button></div>
+        </div>
+        <div class="menu-container">
+            <div class="dynamic-content">
+                <div class="destination-options">
+                    <div class="destination-content">
+                        <div class="destination-header">
+                            <h1>Select Destination</h1>
+                        </div>
+                        <div class="destination-buttons">
+                            <button class="destination-lookup-option selected">Dine In</button>
+                            <button class="destination-lookup-option">To Go</button>
+                            <button class="destination-lookup-option">Park</button>
+                            <button class="destination-lookup-option">Patio</button>
+                            <button class="destination-lookup-option">Call In</button>
+                            <button class="destination-lookup-option">-Served at Counter</button>
+                            <button class="destination-lookup-option">-Served at D/T</button>
+                            <button class="destination-lookup-option">Off Site</button>
+                            <button class="destination-lookup-option">CurdSide</button>
+                            <button class="destination-lookup-option">Online Carryout</button>
+                            <button class="destination-lookup-option">Cust Only DineIn</button>
+                            <button class="destination-lookup-option">Cust Only Park</button>
+                            <button class="destination-lookup-option">Cust Only To Go</button>
+                            <button class="destination-lookup-option">Cust Only Patio</button>
+                        </div>
+                    <div class="destination-controls">
+                        <button class="menu-close-btn confirm-dest">
+                            Enter
+                        </button>
+                        <button class="menu-close-btn destination-btn">
+                            Go Back
+                        </button>
+                    </div>         
+                </div>
+
+            </div>
+
+            <div class="discount-options">
+                <div class="discount-content">
+                    <div class="destination-header">
+                        <h1>Discount Lookup</h1>
+                    </div>
+                    <div class="discount-buttons">
+                        <button class="discount-lookup-option" data-amount="10">10%</button>
+                        <button class="discount-lookup-option" data-amount="15">15% VIP</button>
+                        <button class="discount-lookup-option" data-amount="5">5%</button>
+                        <button class="discount-lookup-option" data-amount="10">Manager 10%</button>
+                        <button class="discount-lookup-option" data-amount="100">Manager 100%</button>
+                        <button class="discount-lookup-option" data-amount="25">Manager 25%</button>
+                        <button class="discount-lookup-option" data-amount="100">Sample 100%</button>
+                        <button class="discount-lookup-option" data-amount="5">Senior.</button>
+                        <button class="discount-lookup-option" data-amount="20">Team Member 20%</button>
+                        <button class="discount-lookup-option" data-amount="50">Team Member 50%</button>
+
+                    </div>
+                <div class="discount-controls">
+                    <button class="menu-close-btn" id="confirm-discount">
+                        Enter
+                    </button>
+                    <button class="menu-close-btn" id="close-discount-controls">
+                        Go Back
+                    </button>
+                </div>         
+            </div>
+
+        </div>
+
+            <div class="payment-screen submenu">
+                <div class="payment-buttons">
+                    <button class="payment-button small-text" data-amount="cash">
+                        <p>Cash</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button small-text" data-amount="next">
+                        <p>Next<br> Dollar</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button" data-amount="5" selected="1">
+                        <p>$5</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button" data-amount="10">
+                        <p>$10</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button" data-amount="20">
+                        <p>$20</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button small-text" data-amount="exact">
+                        <p>Exact Dollar</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                    <button class="payment-button small-text" data-amount="credit">
+                        <p>Pin Pad Credit</p>
+                        <img src="./imgs/dollar-sign.png">
+                    </button>
+                </div>
+                <div class="payment-buttons-section">
+                    <div class="payment-buttons-section-left-container">
+                        <div class="payment-output">
+                            <span></span>
+                        </div>
+                        <div class="payment-buttons-section-left">
+                            <button>7</button>
+                            <button>8</button>
+                            <button>9</button>
+                            <br>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <br>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <br>
+                            <button>00</button>
+                            <button>0</button>
+                            <button>.</button>
+                            <button class="clear-btn">Clear</button>
+                        </div>
+                    </div>
+                    <div class="payment-buttons-section-right">
+                        <div class="payment-buttons-section-right">
+                            <button id="payment-go-back" class="payment-confirm-btns">
+                                Go Back
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!-- GN is abbreviation of guest-number -->
+            <div class="guest-number-screen" id="guest-number-screen">
+                
+                <div class="gn-content">
+                    <div class="gn-header">
+                        <h1>Guest Number</h1>
+                    </div>
+                    <div class="gn-styling-div">
+                        <div class="gn-left">
+                            <div class="gn-output">
+                                <span></span>
+                            </div>
+
+                            <div class="submenu-buttons gn-buttons">
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <br>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <br>
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <br>
+                                <button>00</button>
+                                <button>0</button>
+                                <button class="clear-btn">Clear</button>
+                            </div>
+                    </div>
+    
+                    <div class="gn-right">
+                        <button id="gn-confirm" class="gn-button">
+                            Enter
+                        </button>
+                        
+                   
+                        <button id="gn-go-back" class="gn-button">
+                            Go Back
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quantity-screen submenu">
+                <div class="quantity-buttons-container">
+                    <button class="quantity-selection-btn" data-amount="1">
+                        <p>1</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="2">
+                        <p>2</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="3">
+                        <p>3</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="4">
+                        <p>4</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="5">
+                        <p>5</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="6">
+                        <p>6</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="7">
+                        <p>7</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="8">
+                        <p>8</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                    <button class="quantity-selection-btn" data-amount="9">
+                        <p>9</p>
+                        <img src="./imgs/hashtag.png">
+                    </button>
+                </div>
+                <div class="quantity-options">
+                    <div class="quantity-left">
+                        <div class="quantity-keypad">
+                            <div class="quantity-output">
+                                <span></span>
+                            </div>
+                            <div class="submenu-buttons quantity-buttons">
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <br>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <br>
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <br>
+                                <button>00</button>
+                                <button>0</button>
+                                <button class="clear-btn" id="quantity-keypad-clear">Clear</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="quantity-right">
+                        <div class="quantity-right">
+                            <button id="quantity-enter" class="quantity-confirm-btns">
+                                Enter
+                            </button>
+                            
+                       
+                            <button id="quantity-go-back" class="quantity-confirm-btns">
+                                Go Back
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--flaticon.com/free-icon/hashtag_6632236?k=1673855519025&log-in=google-->
+            <div class="menu-buttons submenu">
+                    
+                    </div>
+                    
+
+                <div class="condiments-selection-menu submenu">
+                   <div class="condiments-div">
+
+                   </div>
+                   <div class='meat-quantity-options'>
+                   <button class='meat-quantity' data-amount='1' data-shortened="SNGL"><span>Single</span></button>
+                   <button class='meat-quantity' data-amount='2' data-shortened="DBL"><span>Double</span></button>
+                   <button class='meat-quantity' data-amount='3' data-shortened="TRPL"><span>Triple</span></button>
+                   </div>
+                </div>
+
+                <div class="error-ui">
+                   <div class="error-content">
+                    <div class="error-header">Error</div>
+                    <div class="error-display-container">
+                        <p id="error-message"></p>
+                    </div>
+                    <button id="close-error-ui">Close</button>
+                   </div>
+                </div>
+
+                <div class="sauces-menu submenu">
+
+                </div>
+
+                <div class="meat-options-menu submenu"></div>
+
+                <div class="seafood-menu submenu">
+                    
+                </div>
+                <div class="special-instructions-menu submenu">
+                    
+                </div>
+                <div class="salads-container submenu">
+                    
+                </div>
+                <div class="mixins-container submenu"></div>
+
+                <div class="drink-condiments-container submenu"></div>
+
+                <div class="desert-cond-container submenu"></div>
+
+                <div class="allergy-container submenu"></div>
+
+                <div class="sides-container submenu" ></div>
+
+                <div class="drinks-container submenu"></div>
+
+                <div class="soups-container submenu"></div>
+
+                <div class="kids-container submenu"></div>
+
+                <div class="side-of-display-menu submenu"></div>
+
+                <div class="upcharge-options-menu submenu"></div>
+
+                <div class="quantity-selection-menu submenu"></div>
+
+                <div class="dish-cone-waff-container submenu"></div>
+
+                <div class="floats-container submenu"></div>
+
+                <div class="other-container submenu">
+                    <div class="sections">
+                        <div class="section">
+                            <h1>Welcome! Here are some things to note</h1><br>
+                            <p>Here is my personal project of many months; a Culver's POS training simulator! This system is based off many Culver's now old POS systems, many are upgrading to a newer updated one.
+
+                                This version includes BASIC features of the POS system. This is not a full fledged recreation. Most of the sidebar buttons do not work, and niether do the scroll buttons, they are there for show. It does however have the following key features:
+                                </p><br>
+                            <ul>
+                               <li>1. It includes most menu items, plus regular and small value baskets, dinners, etc with correct pricing and upcharges (for Michigan)</li>
+                               <li>2. It has MOST screens, such as sauces, special instructions, dessert mixins, etc.</li>
+                               <li>3. It properly determines the price upcharges between regular and small baskets, and kids meals.</li>
+                               <li>4. The "Cancel Item" button DOES work</li>
+                            </ul>
+                         </div>
+                         <div class="section">
+                            <h1>Keep in mind:</h1>
+                            <ul>
+                               <li>1. This does not include quite a few submenus, such as dinner options, a few submenus for custard, etc.</li>
+                               <li>2. This was created in the process of 7 months while juggling work and school, so it absolutely isn't perfect. There are bugs here and there, and some of it is not accurate to the real version.</li>
+                               <li>3. I finished this after I quit Culver's, so I wasn't able to get all the details right.</li>
+                               <li>4. While this is a great start to getting familiar with the register, it is not exact. This includes basic functionality that'll be a good refresher for current employees, and a decent first look for new employees.</li>
+                               <li>5. This simulator does not look good on very small screens. There are a few visual bugs when the screen size gets smaller.</li>
+                            </ul><br>
+                            <p>Enter your tax rate, or leave empty and submit to reset to the default (0.065)</p>
+                           <div class="inputs">
+                            <input type="text" id="custom-tax" placeholder=""><br>
+                            <button id="set-tax-rate">Set rate</button>
+                           </div>
+
+                            <p>Enjoy the simulator, and please let me know what you think! 
+
+                                
+                                Contact me through DM's on Reddit: <a href='https://www.reddit.com/user/radiantpos'>Link</a> </p><br>
+                                <button id="other-btn">Open POS</button><br>
+                                <br><small>Version last updated 4/6/2023</small>
+                         </div>
+                         </div>
+
+                </div>
+
+                <div class="other-submenu submenu"></div>
+            </div>
+            <div class="product-list">
+                <p id="destination">*Dine in</p>
+                <p id="guest-number"></p>
+                <div class="list">
+                    <div class="list-header">
+                        <div id="list-header-text">REG 1</div>
+                    </div>
+                    <div class="list-body-wrapper">
+                        <div class="list-body">
+                        </div>
+                    </div>
+                    <div class="list-total">
+                        <div class="list-total-item" id="sub-section">
+                            <p class="subtotal">Sub:</p>
+                            <p class="subtotal price">$0.00</p>
+                        </div>
+                        <div class="list-total-item" id="total-section">
+                            <p id="total-text" class="">Tot:</p>
+                            <p id="total-price" class="">$0.00</p>
+                        </div>
+                    </div>
+                    <div class="scroll-quantity">
+                        <button class="quantity-btn" onclick="displayErrorUI('Scroll buttons do not work due to a bug, sorry!')" id="quantity-up"><img src="imgs/arrow-quanity-up.png" alt=""></button>
+                        <button class="quantity-btn" id="quantity-select"><b>QUANTITY</b></button>
+                        <button class="quantity-btn" onclick="displayErrorUI('Scroll buttons do not work due to a bug, sorry!')" id="quantity-up"><img src="imgs/arrow-quanity-down.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-buttons">
+                <button class="destination-menu-button destination-lookup-btn">Desti-<br>nation LOOKUP</button>
+                <button class="destination-menu-button">Mgr. Funct.</button>
+                <button class="destination-menu-button">Other Funct.</button>
+                <button class="destination-menu-button" id="cancel-item-btn">Cancel Item</button>
+                <button class="destination-menu-button">Print Receipt</button>
+                <button class="destination-menu-button">Cancel Order</button>
+                <button class="destination-menu-button" id="discount-lookup-btn">Discount Lookup</button>
+                <button class="destination-menu-button" onclick="displayErrorUI('Currently only discounts are available!')">Coupon Lookup</button>
+                <button class="destination-menu-button tender-order">Tender</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

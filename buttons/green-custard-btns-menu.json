@@ -1,0 +1,209 @@
+[
+    {
+        "data_text": "Vanilla",
+        "data_shortened": "VAN",
+        "default": "VAN",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#fff",
+        "txtColor": "#000"
+    },
+    {
+        "data_text": "Chocolate",
+        "data_shortened": "CHO",
+        "default": "CHO",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#542c19",
+        "txtColor": "#fff",
+        "borderColor": "#69361e"
+    },
+    {
+        "data_text": "FOD",
+        "data_shortened": "FOD",
+        "default": "FOD",
+        "class": "dish-edit-btn base-edit",
+        "submenu": "",
+        "price": "",
+        "isButton": true,
+        "base_id": "1",
+        "bgColor": "#832222",
+        "txtColor": "#fff",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "1 SCOOP",
+        "data_shortened": "ONE",
+        "icon": "",
+        "class": "mainitem-edit-btn dish-sizing",
+        "price": "2.89",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "2 SCOOP",
+        "data_shortened": "TWO",
+        "icon": "",
+        "class": "mainitem-edit-btn dish-sizing",
+        "price": "3.89",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "3 SCOOP",
+        "data_shortened": "THREE",
+        "icon": "",
+        "class": "mainitem-edit-btn dish-sizing",
+        "price": "4.69",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Mixins <br>->",
+        "data_shortened": "",
+        "icon": "",
+        "class": "dish-edit-btn open-mixin-container",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "cyan",
+        "borderColor": "#00cccc",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 4,
+        "extraMargin": true
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 4,
+        "extraMargin": true
+    },
+    {
+        "data_text": "Side of Display",
+        "data_shortened": "",
+        "icon": "",
+        "class": "menu-button-white side-of-display-dish",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Counter",
+        "data_shortened": "Served at Counter",
+        "icon": "",
+        "class": "subitem-btn desert-flag-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Custard Served",
+        "data_shortened": "Served",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "With Meal",
+        "data_shortened": "w/ Meal",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Later Custard",
+        "data_shortened": "Later Custard",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Special Inst",
+        "data_shortened": "",
+        "icon": "",
+        "class": "menu-button-white dish-special-inst desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "icon": "",
+        "class": "return-button dishReturn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

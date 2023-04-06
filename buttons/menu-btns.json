@@ -1,0 +1,232 @@
+[
+{
+    "data_text": "Ham burger",
+    "class": "menu-button main-item",
+    "data_shortened": "HB",
+    "default": "DBL",
+    "price": "5.59",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [0, 17],
+    "txtColor": "#913771"
+},
+{
+    "data_text": "Cheese<br>burger",
+    "class": "menu-button main-item",
+    "data_shortened": "CB",
+    "default": "DBL",
+    "price": "6.19",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [0, 14, 17],
+    "isDinner": false,
+    "txtColor": "#913771"
+},
+{
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+    "data_text": "Deluxe",
+    "class": "menu-button main-item",
+    "data_shortened": "DLX",
+    "default": "DBL",
+    "price": "6.39",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [5, 8, 9, 10, 11, 14, 17],
+    "txtColor": "#913771"
+},
+{
+    "data_text": "Bacon Deluxe",
+    "class": "menu-button main-item",
+    "data_shortened": "BACDLX",
+    "default": "DBL",
+    "price": "7.29",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [1, 5, 8, 9, 10, 11, 14, 17],
+    "txtColor": "#913771"
+},
+{
+    "data_text": "Mush<br>room & Swiss",
+    "class": "menu-button main-item",
+    "data_shortened": "M&S",
+    "default": "DBL",
+    "price": "6.69",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [2, 16, 17],
+    "txtColor": "#913771"
+},
+{
+    "data_text": "Sour dough Melt",
+    "class": "menu-button main-item",
+    "data_shortened": "SR DO",
+    "default": "DBL",
+    "price": "6.89",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [6, 15, 19],
+    "txtColor": "#913771"
+},
+{
+    "data_text": "WI Swiss Melt",
+    "class": "menu-button main-item",
+    "data_shortened": "WI",
+    "default": "DBL",
+    "price": "6.89",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": true,
+    "selected": [6, 16, 20],
+    "txtColor": "#913771"
+},
+{
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+    "data_text": "Original Tenders",
+    "class": "menu-button main-item",
+    "data_shortened": "TEND",
+    "default": "4PC",
+    "price": "6.49",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "sauces",
+    "sizePricing": [{"OnePC": 2.79, "TwoPC": 3.99, "FourPC": 6.49, "EightPC": 11.99}]
+},
+{
+    "data_text": "Buffalo Tenders",
+    "class": "menu-button main-item",
+    "data_shortened": "BUFF",
+    "default": "4PC",
+    "price": "6.49",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "sauces"
+},
+{
+    "data_text": "Grilled Chicken",
+    "class": "menu-button main-item",
+    "data_shortened": "GRL CHIX",
+    "price": "6.69",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "meatOptions": false,
+    "selected": [8, 10, 11, 18]
+},
+{
+    "data_text": "Crispy Chicken",
+    "class": "menu-button main-item",
+    "data_shortened": "CRSP CHIX",
+    "price": "5.69",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [8, 10, 11, 17]
+},
+{
+    "data_text": "Spicy Chicken",
+    "class": "menu-button main-item",
+    "data_shortened": "SPY CHIX",
+    "price": "5.89",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [8, 10, 11, 17]
+},
+{
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+    "data_text": "Beef Pot Roast",
+    "class": "menu-button main-item",
+    "data_shortened": "BEEF RST",
+    "price": "5.99",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [17]
+},
+{
+    "data_text": "Reuben",
+    "class": "menu-button main-item",
+    "data_shortened": "REUBEN",
+    "price": "6.49",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [20, 32, 34]
+},
+{
+    "data_text": "Pork Loin",
+    "class": "menu-button main-item",
+    "data_shortened": "PORK LOIN",
+    "price": "5.49",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [17]
+},
+{
+    "data_text": "Veggie Burger",
+    "class": "menu-button main-item",
+    "data_shortened": "VEGGIE",
+    "price": "5.59",
+    "isButton": true,
+    "hasImage": false,
+    "submenu": "condiments",
+    "selected": [13, 17]
+},
+
+{
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+    "blankSpace": true,
+    "quantity": 4
+},
+{
+    "data_text": "Side of Display",
+    "class": "menu-button-white side-of-display",
+    "data_shortened": "",
+    "price": "",
+    "isButton": true,
+    "hasImage": false,
+    "opensSubMenu": true
+},
+{
+    "btn_seperator": "<div class='buttons-seperator'></div>",
+    "isButton": false
+},
+{
+    "data_text": "Special Inst",
+    "class": "menu-button-white special-inst",
+    "isButton": true,
+    "opensSubMenu": true,
+    "hasImage": false
+}
+]

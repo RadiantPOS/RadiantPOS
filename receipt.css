@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Readex+Pro:wght@300&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+   
+}
+.receipt-body {
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+}
+
+p {
+    padding: 3px;
+}
+
+.receipt-items {
+    text-align: left;
+}
+
+.set-item {
+    color: red;
+}
+
+.subitem {
+    margin-left: 20px;
+}

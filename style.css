@@ -1,0 +1,1100 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Readex+Pro:wght@300&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    overflow: auto;
+    height: auto;
+    overflow-x: hidden !important;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+button:active {
+    border: inset !important;
+}
+.main-container {
+    background-color: #fafda2;
+    width: 70%;
+    height: auto;
+    display: flex;
+    overflow: auto;
+    margin: auto;
+    font-family: 'Courier Prime', monospace;
+}
+
+.sides-container, .drinks-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bottom-buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar-buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar-button {
+    margin: 0;
+}
+
+.sidebar-button button{
+    background-color: #1F3685;
+    border: outset;
+    border-color: #274dc9;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.sidebar-button.active button{
+    background-color: #1f73fb;
+}
+
+.menu-container {
+    background-color: #1F3685;
+    width: 100%;
+    display: flex;
+}
+
+.menu-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.menu-button {
+    margin: 5px;
+    background-color: #CBCBCB;
+    border: none;
+    color: rgb(1, 79, 174);
+    /* padding: 10px; */
+    text-align: center;
+    margin-top: 7px;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    /* box-shadow:inset 0px 0px 4px 2px rgb(179, 179, 179); */
+    border: outset;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button p {
+    height: 60px;
+}
+
+.menu-button p {
+    vertical-align: text-top;
+}
+
+.menu-button.left-margin {
+    margin: 5px 0px 0px 5px;
+}
+
+.menu-button.sides-size {
+    margin: 7px 0px 0px 5px;
+}
+
+
+.sauces-button, .salad-btn {
+    margin: 7px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 7px;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    box-shadow:inset 0px 0px 4px 2px rgb(179, 179, 179);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-button-white {
+    background-color: #fff;
+    position: relative;
+    border: outset;
+    color: red;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    box-shadow:inset 0px 0px 4px 0px rgb(179, 179, 179);
+    font-weight: bold;
+    flex-direction: row;
+    text-align: center;
+    z-index: 1;
+}
+
+.menu-button:active, .meat-quantity:active, .mainitem-edit-btn:active, .subitem-edit-btn:active, .side-of-display-btn:active, .sauces-btn:active{
+    border: inset;
+
+}
+
+.subitem-btn:active {
+    border: inset;
+}
+
+.condiments-button:active {
+    outline: 3px solid #1f73fb;
+
+}
+
+.destination-menu-button {
+    display: block;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: black;
+    margin-top: 7px;
+    border: outset;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0052d4;
+    font-weight: bold;
+}
+
+.condiments-button, .subitem-btn, .condiments-button-edit, .mainitem-edit-btn, .default-btn, .drinks-btn, .side-of-display-btn, .sauces-button, .subitem-edit-btn, .dish-edit-btn, .kids-scoop {
+    background-color: transparent;
+    position: relative;
+    border: outset;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+    border-color: transparent;
+    font-size: 12px;
+    box-shadow:inset 0px 0px 4px 0px rgb(179, 179, 179);
+    font-weight: bold;
+    flex-direction: row;
+    text-align: center;
+    z-index: 1;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    text-shadow: 1px 2px 4px #000;
+}
+
+.side-of-display-btn, .sauces-button, .salad-btn,.default-btn, .condiments-button.no-border, .subitem-btn, .subitem-edit-btn, .dish-edit-btn, .kids-scoop {
+    box-shadow: none;
+    border: outset;
+    text-shadow: none;
+}
+.condiments-button {
+    box-shadow:inset 0px 0px 4px 0px rgb(179, 179, 179);
+}
+
+.condiments-button.no-border {
+    box-shadow: none;
+}
+/* Makes zero sense but hey */
+
+
+.mainitem-edit-btn {
+    border: outset;
+}
+
+.drinks-btn.large img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.drinks-btn img{
+    width: 50%;
+    height: 56%;
+    z-index: -1;
+    top: 15%;
+    left: 20%;
+    position: absolute;
+}
+
+.drinks-btn.no-border {
+    box-shadow: none;
+}
+
+.pic-with-text p{
+    position: absolute;
+    top: 3px;
+    left: 22.4%;
+    z-index: 3;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.more-center p {
+    left: 15%;
+}
+
+.condiments-button p {
+    margin: auto;
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+
+.condiments-button.noimage p{
+    position: relative;
+    top: 50%;
+    left: 0;
+}
+
+.condiments-button img {
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+    top: 10px;
+    left: 15px;
+    position: absolute;
+}
+
+.condiments-button.toggled {
+    border: 3px solid rgb(27, 165, 27) !important;
+}
+
+.product-list {
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(9, 9, 96);
+    padding: 4px 10px;
+    box-shadow:inset 0px 2px 9px 2px rgb(179, 179, 179);
+    height: 940px;
+}
+
+#destination, #guest-number {
+    color: white;
+    padding: 4px 0px;
+    font-size: 14px;
+}
+
+.colored {
+    color: dodgerblue;
+}
+
+span .colored {
+    color: dodgerblue;
+}
+
+.list-header {
+    background-color: dodgerblue;
+    width: 100%;
+}
+
+.list-body {
+    width: 100%;
+    background-color: white;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: auto;
+}
+.list-total {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 17px;
+}
+
+
+
+.dynamic-content {
+    padding: 7px;
+    width: 100%;
+}
+
+.list-total-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal {
+    color: green;
+}
+
+.product {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.buttons-seperator {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.buttons-seperator-smoll {
+    width: 100%;
+
+}
+
+.buttons-seperator-x {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.buttons-whitespace-gap {
+    margin-right: 25px;
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+.scroll-quantity {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 6px;
+    justify-content: center;
+}
+
+.scroll-quantity button img {
+    width: 35px;
+}
+
+.quantity-btn {
+    margin-top: 15px;
+    margin: 3px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    color: green;
+    padding: 5px;
+    text-align: center;
+    width: calc(100% / 3);
+    font-size: 12px;
+    box-shadow:inset 0px 0px 4px 2px rgb(179, 179, 179);
+    text-transform: uppercase;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-title {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.product-price {
+    margin-right: 6px;
+}
+
+.product.selected >  *{
+    background-color: rgb(176, 255, 176);
+}
+
+.product-subitems {
+    background-color: white;
+}
+
+.condiments-selection-menu {
+    flex-wrap: wrap;
+    width: 90%;
+    display: block;
+}
+
+.meat-quantity-options {
+    display: none;
+    width:0px;
+    flex-direction: column;
+}
+
+.subitem {
+    background-color: white;
+    display: block;
+    padding-top: 1px;
+    padding-left: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #943636;
+}
+
+.subitem-text {
+    color: #AF5A5A;
+}
+
+.subitem-price, .subitem-text.colored {
+    color: blue;
+}
+.subitem.active, .subitemAddition.active {
+    background-color: rgb(176, 255, 176);
+}
+
+.subitem-price {
+    margin-right: 6px;
+}
+
+.subitem-modifier.blue {
+    color: blue;
+}
+
+.submenu-btn-div {
+    width: 100%;
+}
+
+.sauces-menu, .floats-container {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.error-ui {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+
+.error-content {
+    background-color: red;
+    margin: 15% auto;
+    width: 50%;
+    padding: 12px;
+}
+
+.error-header {
+    text-align: center;
+    margin-bottom: 10px;
+    border: inset;
+    border-color: #c20000;
+    padding: 12px;
+}
+
+.error-display-container {
+    background-color: white;
+    padding: 12px;
+}
+
+
+.return-button, .error-content button{
+    padding: 10px 60px;
+    border: 0;
+    background-color: #d4d6e4;
+    color: rgb(29, 91, 154);
+    font-weight: bold;
+    margin: auto;
+    font-size: 19px;
+    box-sizing: border-box;
+    border: outset;
+} 
+
+.error-content button {
+    display: flex;
+    margin-top: 10px;
+}
+.return-button p {
+    height: auto;
+}
+
+.return-button:active {
+    outline: 3px solid rgb(5, 163, 5);
+}
+
+.special-instructions-menu {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.meat-quantity {
+    margin: 7px;
+    background-color: rgb(238, 194, 0);
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 7px;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    box-shadow:inset 0px 0px 4px 2px rgb(179, 179, 179);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+.meat-quantity span {
+    position: absolute;
+    top: 6%;
+    margin: auto;
+    width: 100%;
+    left: 0%;
+}
+
+.condiments-div, .upcharge-options-menu, .kids-container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.salads-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mixins-container {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.mixins-btn {
+    box-shadow: none;
+}
+
+#orders-bg {
+    background-color: black;
+    overflow: hidden
+}
+
+.orders-header {
+    width: 100%;
+    background-color: #1F3685;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+.orders {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: 48vh;
+    color: black;
+}
+
+.order:nth-last-of-type() {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.order {
+    border: 2px solid #1F3685;
+    height: 100%;
+    text-align: left;
+    grid-template-columns: 3fr;
+}
+
+.order-header {
+    background-color: green;
+    color: white;
+}
+
+#order-elasped-time {
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.subitemAddition {
+    display: flex;
+    color: blue;
+    padding-left: 44px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subitemAdditionPrice {
+    color: blue;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.blank-space {
+   margin-left: 5px;
+   width: 70px;
+}
+
+.blank-space.extra-margin {
+    margin: 5px;
+}
+
+.desert-extra-margin {
+    margin: 5px;
+}
+
+.side-of-display-menu {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.destination-options, .discount-options {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+
+/* .discount-options {
+    display: block !important;
+} */
+
+.destination-content, .discount-content {
+    width: 30%;
+    margin: 5% auto;
+    background-color: #1F3685;
+    padding: 12px;
+
+}
+
+.destination-header, .discount-header {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    border-top: 2px solid #e8e8e8;
+    border-lefT: 2px solid #e8e8e8;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.destination-buttons, .discount-buttons {
+    background-color: white;
+}
+
+.destination-options .destination-lookup-option, .discount-options .discount-lookup-option {
+    display: block;
+    border: 0 !important;
+    background-color: transparent;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 2px;
+}
+
+
+.destination-options button.selected, .discount-lookup-option.selected {
+    background-color: dodgerblue;
+}
+
+.destination-options button:not(.selected):hover, .discount-options button:not(.selected):hover {
+    background-color: #e8e8e8;
+}
+
+.destination-controls, .discount-controls {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    background-color: #1F3685;
+}
+
+.guest-number-screen {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+
+
+.gn-styling-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.menu-close-btn {
+    padding: 10px 30px;
+    border: 0;
+    background-color: #d4d6e4;
+    color: rgb(29, 91, 154);
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 19px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 15px;
+    border: outset;
+}
+
+.gn-content {
+    width: 500px;
+    background-color: #203eb2;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 3px;
+}
+
+.gn-header {
+    width: 94%;
+    border-top: 2px solid white;
+    border-lefT: 2px solid white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    color: rgb(215, 215, 0);
+    margin: auto;
+    margin-top: 4px;
+}
+
+.gn-left {
+    widtH: 50%;
+}
+
+.gn-right, .quantity-right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 30%;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.gn-right button, .quantity-right {
+    margin-top: 53px;
+    font-size: 17px;
+}
+
+.gn-output, .quantity-output, .payment-output {
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    height: 50px;
+    text-align: right;
+    font-size: 22px;
+    cursor: default;
+    user-select: none;
+    font-weight: bold;
+    border: 2px solid rgb(0, 237, 79);
+}
+
+.quantity-keypad {
+    width: 234px;
+}
+
+.quantity-options {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.quantity-right {
+    width: 300px;
+    height: 100%;
+}
+
+.payment-output {
+    width: 245px;
+    font-size: 26px;
+}
+
+.submenu-buttons button{
+    padding: 10px;
+    margin-top: 4px;
+    color: rgb(243, 214, 0);
+    text-shadow: 1px 2px 4px #000;
+    font-weight: bold;
+    font-size: 26px;
+    width: calc(285px / 4);
+    border: outset;
+}
+
+
+
+.payment-buttons-section-left button {
+    padding: 10px;
+    margin-top: 4px;
+    color: rgb(243, 214, 0);
+    text-shadow: 1px 2px 4px #000;
+    font-weight: bold;
+    font-size: 26px;
+    width: 75px;
+    border: outset;
+}
+
+.gn-button, .quantity-confirm-btns, #payment-go-back {
+    margin-top: 4px;
+    color: rgb(46, 63, 190);
+    font-weight: bold;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    background-color: #cacaca;
+    border: 1px solid gray;
+    border-radius: 3px;
+    border: outset;
+}
+
+.gn-button:active, .quantity-confirm-btns:active {
+    border: outset;
+}
+
+.quantity-confirm-btns {
+    width: 100px !important;
+}
+/* Placed weirdly but idgaf */
+.clear-btn {
+    padding: 10px;
+    margin-top: 4px;
+    color: green !important;
+    text-shadow: 1px 2px 4px #000;
+    font-weight: bold;
+    font-size: 1em !important;
+    width: 30.8%;
+    height: 49px;
+}
+
+.content-header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 8px;
+}
+
+.other-container {
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #e8e8e8;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.other-container ul, li {
+    margin-top: 15px;
+}
+
+.other-container ul li {
+    list-style: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+.other-container ul li:last-of-type {
+    border-bottom: none;
+}
+
+.other-container ul li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.other-container a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.other-container a:hover {
+    text-decoration: underline;
+}
+
+.upcharge-options-menu {
+    display: none;
+}
+
+.payment-screen {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    padding: 16px;
+}
+
+.drink-condiments-container, .desert-cond-container, .allergy-container, .meat-options-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment-buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.payment-buttons-section {
+    width: 345px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.toggleable-condiment {
+    display: none;
+}
+
+.toggleable-condiment.toggled {
+    display: block;
+}
+
+.end-of-order {
+    color: yellow !important;
+}
+
+.end-of-order-white p{
+    color: white;
+}
+.payment-button{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(60, 251, 12, 0.854);
+    position: relative;
+    border: outset;
+    border-color: rgba(35, 174, 0, 0.854);
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.quantity-screen {
+    display: none;
+    flex-direction: column;
+    padding: 10px 0px 6px 6px;
+}
+
+.quantity-buttons-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.quantity-selection-btn {
+    width: 80px;
+    height: 40px;
+    background-color: #3F9A41;
+    color: black;
+    position: relative;
+    border: outset;
+    border-color: #3da53f;
+    margin: 5px 5px 7px 0px;
+}
+
+.quantity-selection-btn:active {
+    border: inset;
+    outline: none;
+}
+
+.payment-button p {
+    z-index: 2;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+    margin: 0;
+    height: auto;
+}
+
+.quantity-selection-btn p {
+    z-index: 2;
+    position: relative;
+    color: #e8e8e8;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+    margin: 0;
+    height: auto;
+}
+
+.payment-button.small-text p {
+    font-size: 14px;
+}
+
+.payment-button img {
+    width: 37px;
+    top: 2%;
+    z-index: 1;
+    left: 27%;
+    position: absolute;
+}
+
+.payment-buttons-section-right {
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quantity-selection-btn img {
+    width: 25px;
+    top: 8%;
+    position: absolute;
+    left: 35%;
+}
+
+.soups-container, .dish-cone-waff-container {
+    flex-wrap: wrap;
+}
+
+.sections {
+    display: block;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sections .section {
+    margin-top: 25px;
+}
+
+.inputs {
+    display: flex;
+}
+
+#custom-tax, #set-tax-rate, #other-btn {
+    background-color: #032b6a;
+    padding: 12px;
+    border: 1px solid #2f528b;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.other-container button {
+    cursor: pointer;
+}
+
+#set-tax-rate {
+    border: 1px solid #2f528b;
+    margin-left: 10px;
+}
+
+#custom-tax::placeholder {
+    color:white;
+}

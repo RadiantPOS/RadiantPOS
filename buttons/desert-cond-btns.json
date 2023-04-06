@@ -1,0 +1,198 @@
+[
+    {
+        "data_text": "Pecans",
+        "data_shortened": "Pecans",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn mixins-btn",
+        "price": 1,
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Cashews",
+        "data_shortened": "Cashews",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn mixins-btn",
+        "price": 1,
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "blankSpace": true,
+        "quantity": 3
+    },
+    {
+        "data_text": "Ask Me",
+        "data_shortened": "Ask Me",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#E80707",
+        "base_id": "18",
+        "borderColor": "#FF5050"
+    },
+    {
+        "data_text": "Food Allergy Item",
+        "data_shortened": "!!ALLERGY!!",
+        "icon": "",
+        "class": "product-btn right-aligned-btn default-btn allergy-screen",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#E80707",
+        "base_id": "18",
+        "borderColor": "#FF5050"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Whole Cherry",
+        "data_shortened": "Cherry",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "blankSpace": true,
+        "quantity": 5
+    },
+    {
+        "data_text": "Flat Lid",
+        "data_shortened": "Flat Lid",
+        "icon": "",
+        "class": "subitem-btn desert-flag-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 6
+    },
+    {
+        "data_text": "Flip to Dish",
+        "data_shortened": "Flip to Dish",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 6
+    },
+    {
+        "data_text": "2 Spoons",
+        "data_shortened": "2 Spoons",
+        "icon": "",
+        "class": "subitem-btn desert-flag-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Counter",
+        "data_shortened": "Served at Counter",
+        "icon": "",
+        "class": "subitem-btn desert-flag-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Custard Served",
+        "data_shortened": "Served",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "With Meal",
+        "data_shortened": "w/ Meal",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Later Custard",
+        "data_shortened": "Later Custard",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "icon": "",
+        "class": "return-button desertCondRtrn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

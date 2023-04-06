@@ -1,0 +1,238 @@
+[
+    {
+        "data_text": "Ranch",
+        "data_shortened": "Ranch",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Honey Mustard",
+        "data_shortened": "Hon Must",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Bleu Cheese",
+        "data_shortened": "Bleu Chz",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Culvr's Vinai<BR>grette",
+        "data_shortened": "Culvrs Vin.",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    }
+    ,
+    {
+        "data_text": "Rasp<BR>berry Vinai<BR>grette",
+        "data_shortened": "Rasp Vin.",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    }
+    ,
+    {
+        "data_text": "French",
+        "data_shortened": "French",
+        "icon": "",
+        "class": "salad-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+
+    {
+        "data_text": "Cashews",
+        "data_shortened": "Cashews",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "1"
+    },
+    {
+        "data_text": "Cucumbers",
+        "data_shortened": "Cucumber",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.30",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "2"
+    },
+    {
+        "data_text": "Grape Tomatoes",
+        "data_shortened": "Grp. Tomato",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "3"
+    },
+    {
+        "data_text": "Shredded Chz",
+        "data_shortened": "Shrd. Chz",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "4"
+    },
+    {
+        "data_text": "Bacon",
+        "data_shortened": "Bacon Pcs",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.90",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "5"
+    },
+    {
+        "data_text": "Cran<bR>berries",
+        "data_shortened": "Cranberry",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.20",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "6"
+    },
+    {
+        "data_text": "Bleu Chz",
+        "data_shortened": "Bleu Chz Crmble",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.30",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "7"
+    },
+    {
+        "data_text": "Crouton",
+        "data_shortened": "Croutons",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.00",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "8"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "NO",
+        "data_shortened": "NO",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "ADD",
+        "data_shortened": "ADD",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "EXTRA",
+        "data_shortened": "X",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "SUB",
+        "data_shortened": "SUB",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "SIDE",
+        "data_shortened": "SIDE",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "data_shortened": "PLAIN",
+        "icon": "",
+        "class": "return-button done-salads",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

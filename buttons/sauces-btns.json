@@ -1,0 +1,220 @@
+[
+    {
+        "data_text": "Tenders Only",
+        "data_shortened": "",
+        "icon": "",
+        "class": "condiments-button no-border basket-option subitem-btn burger-only",
+        "price": "0.25",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#9F4545",
+        "borderColor": "#C25E5E"
+    },
+    {
+        "data_text": "Small Value Basket",
+        "data_shortened": "",
+        "icon": "",
+        "class": "condiments-button no-border basket-option subitem-btn small_basket_downgrade",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Regular Value Basket",
+        "data_shortened": "",
+        "icon": "",
+        "class": "condiments-button no-border basket-option subitem-btn value_basket_upgrade",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#D80000",
+        "borderColor": "#FF5050"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "WI CHEESE SAUCE",
+        "data_shortened": "CHZ SAUCE",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "0.89",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "orange",
+        "borderColor": "#FFD100"
+    },
+    {
+        "data_text": "Ranch",
+        "data_shortened": "Ranch",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "BBQ",
+        "data_shortened": "BBQ",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Honey Mustard",
+        "data_shortened": "Hon Must",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Buffalo",
+        "data_shortened": "Buff",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "data_text": "Bleu Cheese",
+        "data_shortened": "Bleu Chz",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "purple",
+        "borderColor": "#AB30C2"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Culvr's Vinai<BR>grette",
+        "data_shortened": "Culvrs Vin.",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "BLUE",
+        "borderColor": "#195DE5"
+    }
+    ,
+    {
+        "data_text": "Rasp<BR>berry Vinai<BR>grette",
+        "data_shortened": "Rasp Vin.",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "BLUE",
+        "borderColor": "#195DE5"
+    }
+    ,
+    {
+        "data_text": "French",
+        "data_shortened": "French",
+        "icon": "",
+        "class": "sauces-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "white",
+        "bgColor": "BLUE",
+        "borderColor": "#195DE5"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "1PC",
+        "data_shortened": "1PC",
+        "icon": "",
+        "class": "mainitem-edit-btn tender-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "2PC",
+        "data_shortened": "2PC",
+        "icon": "",
+        "class": "mainitem-edit-btn tender-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "4PC",
+        "data_shortened": "4PC",
+        "icon": "",
+        "class": "mainitem-edit-btn tender-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "8PC",
+        "data_shortened": "8PC",
+        "icon": "",
+        "class": "mainitem-edit-btn tender-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "data_shortened": "PLAIN",
+        "icon": "",
+        "class": "return-button sauces",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

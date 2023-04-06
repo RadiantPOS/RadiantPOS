@@ -1,0 +1,506 @@
+[
+    {
+        "data_text": "Burger Only",
+        "data_shortened": "",
+        "icon": "",
+        "class": "subitem-btn no-border basket-option  burger-only",
+        "price": "0.25",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#9F4545",
+        "borderColor": "#C25E5E"
+    },
+    {
+        "data_text": "Small Value Basket",
+        "data_shortened": "",
+        "icon": "",
+        "class": "subitem-btn no-border basket-option  small_basket_downgrade",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Regular Value Basket",
+        "data_shortened": "",
+        "icon": "",
+        "class": "subitem-btn basket-option value_basket_upgrade",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#D80000",
+        "borderColor": "#FF5050"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Plain",
+        "data_shortened": "Plain",
+        "icon": "",
+        "class": "condiments-button toggleable-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "white",
+        "base_id": "0"
+    },
+    {
+        "data_text": "Bacon",
+        "data_shortened": "BACON",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.90",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "1"
+    },
+    {
+        "data_text": "Mush<br>rooms",
+        "data_shortened": "Mush",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.50",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "2"
+    },
+    {
+        "data_text": "Tartar Sauce",
+        "data_shortened": "Tartar",
+        "icon": "",
+        "class": "condiments-button toggleable-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "22"
+    },
+    {
+        "data_text": "Green Olives",
+        "data_shortened": "Green Olives",
+        "icon": "",
+        "class": "condiments-button toggleable-btn toggleable-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "28"
+    },
+    {
+        "data_text": "Thousand Island",
+        "data_shortened": "Thousand Isl.",
+        "icon": "",
+        "class": "condiments-button toggleable-btn toggleable-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "34"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Ketchup",
+        "data_shortened": "Ketchup",
+        "icon": "ketchup.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "3"
+    },
+    {
+        "data_text": "Mustard",
+        "data_shortened": "Mustard",
+        "icon": "mustard.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "4"
+    },
+    {
+        "data_text": "Onions Raw",
+        "data_shortened": "Onion",
+        "icon": "onions.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "5"
+    },
+    {
+        "data_text": "Onions Grilled",
+        "data_shortened": "Grl On.",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "6"
+    },
+    {
+        "data_text": "Works",
+        "data_shortened": "Works",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#d4d6e4",
+        "base_id": "7"
+    },
+    {
+        "data_text": "Jalapeno",
+        "data_shortened": "Jalapeno",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment toggleable-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#d4d6e4",
+        "base_id": "26"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Pickles",
+        "data_shortened": "Pickles",
+        "icon": "pickels.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "8"
+    },
+    {
+        "data_text": "Mayo",
+        "data_shortened": "Mayo",
+        "icon": "mayo.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "9"
+    },
+    {
+        "data_text": "Lettuce",
+        "data_shortened": "Lettuce",
+        "icon": "lettuce.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "10"
+    },
+    {
+        "data_text": "Tomato",
+        "data_shortened": "Tomato",
+        "icon": "tomato.png",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.30",
+        "isButton": true,
+        "hasImage": true,
+        "base_id": "11"
+    },
+    {
+        "data_text": "Works No Onion",
+        "data_shortened": "Works -O",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#d4d6e4",
+        "base_id": "12"
+    },
+    {
+        "data_text": "Deluxe Cond.",
+        "data_shortened": "Deluxe Cond.",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment",
+        "price": "0.80",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#d4d6e4",
+        "base_id": "13"
+    },
+    {
+        "data_text": "Corned Beef",
+        "data_shortened": "Corned Beef",
+        "icon": "",
+        "class": "condiments-button toggleable-btn main-condiment toggleable-condiment",
+        "price": "1.80",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#d4d6e4",
+        "base_id": "32"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Americn Cheese",
+        "data_shortened": "Amer.",
+        "icon": "",
+        "class": "condiments-button toggleable-btn",
+        "price": "0.50",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#c7b359",
+        "base_id": "14"
+    },
+    {
+        "data_text": "Cheddar Cheese",
+        "data_shortened": "Cheddr.",
+        "icon": "",
+        "class": "condiments-button toggleable-btn",
+        "price": "0.50",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#c7b359",
+        "base_id": "15"
+    },
+    {
+        "data_text": "Swiss Cheese",
+        "data_shortened": "Swiss",
+        "icon": "",
+        "class": "condiments-button toggleable-btn",
+        "price": "0.50",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#c7b359",
+        "base_id": "16"
+    },
+    {
+        "data_text": "Shredded Cheese",
+        "data_shortened": "Shrd. Chz",
+        "icon": "",
+        "class": "condiments-button toggleable-btn toggleable-condiment",
+        "price": "0.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#c7b359",
+        "base_id": "25"
+    },
+    {
+        "blankSpace": true,
+        "quantity": 3
+    },
+    {
+        "data_text": "More Cond. <br> -->",
+        "data_shortened": "Side Of",
+        "icon": "",
+        "class": "menu-button-white toggle-condiments",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Hamb Bun",
+        "data_shortened": "Bun",
+        "icon": "",
+        "class": "condiments-button no-border toggleable-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#755549",
+        "base_id": "17",
+        "borderColor": "#AB6D2F"
+    },
+    {
+        "data_text": "Hoagie Bun",
+        "data_shortened": "HOAG",
+        "icon": "",
+        "class": "condiments-button no-border toggleable-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#755549",
+        "base_id": "18",
+        "borderColor": "#AB6D2F"
+    },
+    {
+        "data_text": "Sour dough Bread",
+        "data_shortened": "SR DO",
+        "icon": "",
+        "class": "condiments-button no-border toggleable-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#755549",
+        "base_id": "19",
+        "borderColor": "#AB6D2F"
+    },
+    {
+        "data_text": "Rye Bread",
+        "data_shortened": "RYE",
+        "icon": "",
+        "class": "condiments-button no-border toggleable-btn",
+        "price": "1.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#755549",
+        "base_id": "20",
+        "borderColor": "#AB6D2F"
+    },
+    {
+        "data_text": "Gluten Free Bun",
+        "data_shortened": "!!GF Bun!!",
+        "icon": "",
+        "class": "condiments-button no-border toggleable-btn",
+        "price": "2.00",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#fff",
+        "bgColor": "#E80707",
+        "base_id": "21",
+        "borderColor": "#FF5050"
+    },
+    {
+        "blankSpace": true,
+        "quantity": 2
+    },
+    {
+        "data_text": "Side Of",
+        "data_shortened": "Side Of",
+        "icon": "",
+        "class": "menu-button-white product-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-smoll'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "NO",
+        "data_shortened": "NO",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "EASY",
+        "data_shortened": "EZ",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "ADD",
+        "data_shortened": "ADD",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "EXTRA",
+        "data_shortened": "X",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "data_text": "SUB",
+        "data_shortened": "SUB",
+        "icon": "",
+        "class": "condiments-button-edit subitem-edit-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#A9A9A9",
+        "base_id": ""
+    },
+    {
+        "blankSpace": true,
+        "quantity": 2
+    },
+    {
+        "data_text": "Special Inst",
+        "data_shortened": "Special Inst",
+        "icon": "",
+        "class": "menu-button-white special-inst-condiments",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "data_shortened": "PLAIN",
+        "icon": "",
+        "class": "return-button",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+    
+]

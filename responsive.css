@@ -1,0 +1,62 @@
+@media screen and (max-width: 1965px) {
+    .product-list {
+        width: 350px;
+        height: 100vh;
+    } 
+}
+
+@media screen and (max-width: 1500px) {
+    /* .product-list {
+        width: 50%;
+    } */
+}
+
+@media screen and (max-width: 1345px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1037px) {
+    .mixins-container .blank-space {
+        width: 100%;
+        position: absolute;
+    }
+}
+
+
+@media screen and (max-width: 953px) {
+    .mixins-btn {
+        width: 60px;
+        font-size: 10px;
+    }
+
+    .destination-content, .discount-options {
+        width: 50%;
+    }
+
+    .condiments-selection-menu {
+        flex-direction: column;
+    }
+
+    .meat-quantity-options {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .condiments-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .product-list {
+        width: 450px;
+    }
+
+    .gn-content {
+        margin: 15% auto;
+    }
+}

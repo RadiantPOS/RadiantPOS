@@ -1,0 +1,56 @@
+[
+    {
+        "data_text": "SMALL",
+        "data_shortened": "SM",
+        "icon": "",
+        "class": "mainitem-edit-btn float-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "MEDIUM",
+        "data_shortened": "MED",
+        "icon": "",
+        "class": "mainitem-edit-btn float-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "LARGE",
+        "data_shortened": "LG",
+        "icon": "",
+        "class": "mainitem-edit-btn float-sizing",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "#000",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "icon": "",
+        "class": "return-button float-return",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]

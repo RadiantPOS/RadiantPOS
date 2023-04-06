@@ -1,0 +1,287 @@
+[
+    {
+        "data_text": "Dish",
+        "class": "menu-button",
+        "data_shortened": "DISH",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "price": "2.89",
+        "sizePricing": [{"ONE": 2.89, "TWO": 3.89, "THREE": 4.69}],
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0],
+        "bgColor": "#178A33",
+        "txtColor": "#000",
+        "borderColor": "#1fcc48"
+    },
+    {
+        "data_text": "Cake Cone",
+        "class": "menu-button no-mixins",
+        "data_shortened": "CAKE CONE",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "price": "6.59",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0],
+        "bgColor": "#178A33",
+        "txtColor": "#000",
+        "borderColor": "#1fcc48"
+    },
+    {
+        "data_text": "Waffle Cone",
+        "class": "menu-button no-mixins",
+        "data_shortened": "CONE WAFF",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "price": "6.59",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0],
+        "bgColor": "#178A33",
+        "txtColor": "#000",
+        "borderColor": "#1fcc48"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Turtle",
+        "class": "menu-button",
+        "data_shortened": "TURTLE",
+        "default": "ONE",
+        "secondDefault": "VAN",
+        "price": "5.59",
+        "sizePricing": [{"ONE": 4.59, "TWO": 5.59, "THREE": 6.39}],
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0]
+    },
+    {
+        "data_text": "Caramel Cashew",
+        "class": "menu-button",
+        "data_shortened": "CAR CSHW",
+        "default": "TWO",
+        "price": "5.59",
+        "sizePricing": [{"ONE": 4.59, "TWO": 5.59, "THREE": 6.39}],
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0]
+    },
+    {
+        "data_text": "Banana Split",
+        "class": "menu-button",
+        "data_shortened": "SPLIT",
+        "default": "3 VAN",
+        "price": "6.59",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "dishoptions",
+        "selected": [0]
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Pint",
+        "class": "menu-button",
+        "data_shortened": "",
+        "default": "PINT",
+        "price": "4.89",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Party Pack",
+        "class": "menu-button",
+        "data_shortened": "",
+        "default": "PARTY PACK",
+        "price": "8.99",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Concret Mixer",
+        "class": "menu-button",
+        "data_shortened": "CONCRETE",
+        "default": "MED",
+        "price": "4.99",
+        "sizePricing": [{"mini": 3.99, "small": 4.29, "medium": 4.99, "large": 5.99}],
+        "kidsPricing": [{"mini": 2.80, "small": 3.20, "medium": 3.80, "large": 4.90}],
+        "upchargePrice": "1.80",
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "mixins",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Shake",
+        "class": "menu-button",
+        "data_shortened": "SHAKE",
+        "default": "MED",
+        "price": "4.29",
+        "sizePricing": [{"small": 3.49, "medium": 4.29, "large": 5.29}],
+        "kidsPricing": [{"small": 2.20, "medium": 3.00, "large": 4.00}],
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "mixins",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Malt",
+        "class": "menu-button",
+        "data_shortened": "MALT",
+        "default": "MED",
+        "price": "4.49",
+        "sizePricing": [{"small": 3.69, "medium": 4.49, "large": 5.49}],
+        "kidsPricing": [{"small": 2.40, "medium": 3.20, "large": 4.20}],
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "mixins",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "data_text": "Float",
+        "class": "menu-button",
+        "data_shortened": "RT BR FLT",
+        "default": "MED",
+        "price": "4.29",
+        "sizePricing": [{"small": 3.49, "medium": 4.29, "large": 5.29}],
+        "upchargeArr": {"LG": 3.50, "SM": 1.80, "MINI": 1.50, "MED": 2.50},
+        "isButton": true,
+        "hasImage": false,
+        "submenu": "floats",
+        "selected": [0],
+        "txtColor": "#fff",
+        "bgColor": "#770505",
+        "borderColor": "#bd2f2f"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 4,
+        "extraMargin": true
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "blankSpace": true,
+        "quantity": 4,
+        "extraMargin": true
+    },
+    {
+        "data_text": "Side of Display",
+        "data_shortened": "",
+        "icon": "",
+        "class": "menu-button-white side-of-display",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Counter",
+        "data_shortened": "Served at Counter",
+        "icon": "",
+        "class": "subitem-btn desert-flag-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Custard Served",
+        "data_shortened": "Served",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "With Meal",
+        "data_shortened": "w/ Meal",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Later Custard",
+        "data_shortened": "Later Custard",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "blue",
+        "bgColor": "#fff",
+        "base_id": ""
+    },
+    {
+        "data_text": "Special Inst",
+        "data_shortened": "",
+        "icon": "",
+        "class": "menu-button-white special-inst desert-extra-margin",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "base_id": "",
+        "txtColor": "red",
+        "bgColor": "#fff"
+    }
+]

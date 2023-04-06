@@ -1,0 +1,112 @@
+[
+    {
+        "data_text": "Milk",
+        "data_shortened": "Milk",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Eggs",
+        "data_shortened": "Eggs",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Fish",
+        "data_shortened": "Fish",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Shellfish",
+        "data_shortened": "Shellfish",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Tree Nuts",
+        "data_shortened": "Tree Nuts",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Peanuts",
+        "data_shortened": "Peanuts",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Wheat",
+        "data_shortened": "Wheat",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "data_text": "Soybeans",
+        "data_shortened": "Soybeans",
+        "icon": "",
+        "class": "subitem-btn right-aligned-btn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "bgColor": "#832222",
+        "borderColor": "#bd2f2f",
+        "base_id": ""
+    },
+    {
+        "btn_seperator": "<div class='buttons-seperator-x'></div>",
+        "isButton": false
+    },
+    {
+        "data_text": "Done",
+        "icon": "",
+        "class": "return-button allergyRtrn",
+        "price": "",
+        "isButton": true,
+        "hasImage": false,
+        "txtColor": "",
+        "bgColor": ""
+    }
+]
