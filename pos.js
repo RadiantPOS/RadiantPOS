@@ -973,9 +973,17 @@ function displaySODBtns() {
 }
 
 function displayCondimentsBtns() {
+    let prod = document.querySelector(".product.selected") || null
+
+    if(prod != null) {
+        let isKidsMeal = prod.getElementsByClassName("product-title")[0]
+        if(isKidsMeal.innerText.indexOf("KDZ") == -1) {
+            bindBasketUpgradeBtns()
+        }
+    }
+
     bindSubitemListeners("condiments-button")
     bindProductListeners("product-btn")
-    bindBasketUpgradeBtns()
     bindEditBtns()
 
     if(document.querySelector(".product.selected").dataset.meatoptions == null) {
@@ -1130,11 +1138,20 @@ function addDrinkCondimentsListeners() {
 }
 
 function displaySaucesBtns() {
+    let prod = document.querySelector(".product.selected") || null
+
+    if(prod != null) {
+        let isKidsMeal = prod.getElementsByClassName("product-title")[0]
+        if(isKidsMeal.innerText.indexOf("KDZ") == -1) {
+            bindBasketUpgradeBtns()
+        }
+    }
+
+    console.log(isKidsMeal.innerText)
     bindSubitemListeners("sauces-button")
     document.querySelector(".return-button.sauces").addEventListener("click", () => displayMainMenu(saucesMenu));
     bindProductListeners("mainitem-edit-btn")
 
-    bindBasketUpgradeBtns()
 }
 
 function displaySaladCondBtns() {
@@ -3159,7 +3176,7 @@ function toggleProduct() {
         let selectedCondimentsArr = products[selectedProduct]["condimentsSelected"];
 
         if(title.innerHTML.indexOf("KDZ") != -1) {
-            classToCheck = ["basket-option", "condiments-button"]
+            classToCheck = ["basket-option"]
         }
         loadMenuBtns(condimentsContainer, "./condiments-btns.json", displayCondimentsBtns, selectedCondimentsArr, undefined, "CONDIMENTS OPTIONS", true, classToCheck)
         opensSubMenu(condiments_div)
@@ -3176,6 +3193,7 @@ function toggleProduct() {
             classToCheck = ["basket-option", "tender-sizing"]
         }
 
+        console.log(classToCheck)
         loadMenuBtns(saucesMenu, "./sauces-btns.json", displaySaucesBtns, null, null, "SELECT SAUCE", true, classToCheck)
         opensSubMenu(saucesMenu)
     }
