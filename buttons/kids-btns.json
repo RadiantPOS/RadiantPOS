@@ -8,7 +8,7 @@
         "isButton": true,
         "hasImage": false,
         "submenu": "condiments",
-        "meatOptions": true,
+        "meatOptions": false,
         "selected": [0]
     },
     {
@@ -19,7 +19,7 @@
         "isButton": true,
         "hasImage": false,
         "submenu": "condiments",
-        "meatOptions": true,
+        "meatOptions": false,
         "selected": [0]
     },
     {
@@ -30,7 +30,7 @@
         "isButton": true,
         "hasImage": false,
         "submenu": "sauces",
-        "meatOptions": true,
+        "meatOptions": false,
         "selected": [0]
     },
     {
@@ -45,7 +45,7 @@
         "isButton": true,
         "hasImage": false,
         "submenu": "condiments",
-        "meatOptions": true,
+        "meatOptions": false,
         "selected": [0, 14]
     },
     {
@@ -56,7 +56,7 @@
         "isButton": true,
         "hasImage": false,
         "submenu": "n/a",
-        "meatOptions": true,
+        "meatOptions": false,
         "selected": [0]
     },
     {
