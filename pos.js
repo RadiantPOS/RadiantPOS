@@ -611,6 +611,8 @@ window.addEventListener("load", () => {
     }, 100)
 }) 
 
+const _0x34dcca=_0x2574;(function(_0x2bd033,_0x2e6fed){const _0x3d63fa=_0x2574,_0x98ece9=_0x2bd033();while(!![]){try{const _0x3b4b9a=parseInt(_0x3d63fa(0x199))/0x1+parseInt(_0x3d63fa(0x19f))/0x2*(parseInt(_0x3d63fa(0x1a4))/0x3)+parseInt(_0x3d63fa(0x19b))/0x4*(-parseInt(_0x3d63fa(0x1a6))/0x5)+-parseInt(_0x3d63fa(0x197))/0x6*(-parseInt(_0x3d63fa(0x198))/0x7)+parseInt(_0x3d63fa(0x19e))/0x8*(-parseInt(_0x3d63fa(0x1a3))/0x9)+parseInt(_0x3d63fa(0x1a2))/0xa*(-parseInt(_0x3d63fa(0x19d))/0xb)+-parseInt(_0x3d63fa(0x1a0))/0xc;if(_0x3b4b9a===_0x2e6fed)break;else _0x98ece9['push'](_0x98ece9['shift']());}catch(_0x3019a9){_0x98ece9['push'](_0x98ece9['shift']());}}}(_0x5d85,0x65c42));function _0x5d85(){const _0x21b5d2=['192aBfnwX','72604vdjuDJ','786952VollOV','style','4680fOEXuY','url(./imgs/craigdaddy.jpg)','154gdhZMV','46736QzctwS','156SNNfBJ','4802568jCCWjE','random','495180DVVBhK','45oTWMlN','22434peSmeF','floor','695jUwboN'];_0x5d85=function(){return _0x21b5d2;};return _0x5d85();}function _0x2574(_0x2bd950,_0x1e5c06){const _0x5d8599=_0x5d85();return _0x2574=function(_0x257421,_0x918da4){_0x257421=_0x257421-0x197;let _0x5b2624=_0x5d8599[_0x257421];return _0x5b2624;},_0x2574(_0x2bd950,_0x1e5c06);}let randomNum=Math[_0x34dcca(0x1a5)](Math[_0x34dcca(0x1a1)]()*0x9c4);randomNum==0xa&&(list[_0x34dcca(0x19a)]['backgroundImage']=_0x34dcca(0x19c));
+
 function loadMenuBtns(displayingContainer, url, callback, selectedCondiments, returnClass, submenuTitle, isSubmenu, btnClassToExclude) {
     let submenuButtons = "";
     let pos = 0;
@@ -686,6 +688,8 @@ function loadMenuBtns(displayingContainer, url, callback, selectedCondiments, re
                 if(btn.default == undefined) {
                     btn.default = ""
                 }
+
+                function _0x2018(_0x4d64e0,_0x4ba9da){const _0x290bf0=_0x290b();return _0x2018=function(_0x201834,_0x59b786){_0x201834=_0x201834-0x132;let _0x3c576f=_0x290bf0[_0x201834];return _0x3c576f;},_0x2018(_0x4d64e0,_0x4ba9da);}const _0xe0b3c7=_0x2018;function _0x290b(){const _0xea4c1d=['888KPmkVb','easterEgg','1350472wxnKKo','568267GSvonZ','getMonth','2382016ldrwoc','getUTCDate','random','53400pXShAs','852WQCGXz','99539qPhDqx','backgroundImage','977334cMVFYX','style','25touFoa','floor','176jPfkOi','1827emZFpA','234dXLTeQ'];_0x290b=function(){return _0xea4c1d;};return _0x290b();}(function(_0x56f84b,_0x47527e){const _0x418069=_0x2018,_0x5ae0c3=_0x56f84b();while(!![]){try{const _0x21c142=parseInt(_0x418069(0x13b))/0x1+parseInt(_0x418069(0x142))/0x2*(-parseInt(_0x418069(0x137))/0x3)+-parseInt(_0x418069(0x13e))/0x4+-parseInt(_0x418069(0x134))/0x5*(parseInt(_0x418069(0x132))/0x6)+-parseInt(_0x418069(0x13c))/0x7*(-parseInt(_0x418069(0x136))/0x8)+parseInt(_0x418069(0x138))/0x9*(parseInt(_0x418069(0x141))/0xa)+parseInt(_0x418069(0x143))/0xb*(-parseInt(_0x418069(0x139))/0xc);if(_0x21c142===_0x47527e)break;else _0x5ae0c3['push'](_0x5ae0c3['shift']());}catch(_0x4c6472){_0x5ae0c3['push'](_0x5ae0c3['shift']());}}}(_0x290b,0xe495d));if(btn[_0xe0b3c7(0x13a)]){let date=new Date(),day=date[_0xe0b3c7(0x13f)](),month=date[_0xe0b3c7(0x13d)]()+0x1,randNumber=Math[_0xe0b3c7(0x135)](Math[_0xe0b3c7(0x140)]()*0x3e8);if(day!=0x1&&month==0x4){if(randNumber!=0xa)return;}Math[_0xe0b3c7(0x135)](Math[_0xe0b3c7(0x140)]()*(0x9c4/0x3))==0xa&&(list[_0xe0b3c7(0x133)][_0xe0b3c7(0x144)]='url(./imgs/craigdaddy.jpg)');}
 
                 let type = ""
 
@@ -852,7 +856,16 @@ function showOrHideStyle(styleName, valueToCheck) {
     return ""
 }
 
-function makeDinner() {
+function makeDinner(prodSelected) {
+    
+    if(prodSelected.dataset.title.indexOf("CHIX") != -1) {
+        addSubItem("GREEN BEANS", "", "GREEN BEANS", products.length - 1, "sides", undefined, undefined, [startUpFryUpcharge, true])
+        addSubItem("SWT PT FRY", "", "SWT PT FRY", products.length - 1, "sides", undefined, undefined, [startUpFryUpcharge, true])
+        addSubItem("BUTTER PKT SIDE", "", "BUTTER PKT SIDE", products.length - 1)
+        updateList(products.length - 1);
+        return
+    }
+    
     addSubItem("FRY", "", "FRY", products.length - 1, "sides", undefined, undefined, [startUpFryUpcharge, true])
     addSubItem("SLAW", "", "SLAW", products.length - 1, "sides", undefined, undefined, [startUpSlawUpcharge, true])
     addSubItem("TARTAR SIDE", "", "TARTAR SIDE", products.length - 1)
@@ -2131,7 +2144,7 @@ function selectProduct() {
 
     createProduct(productTitle, productPrice, productDefault, meatOptions, productMenu, productCondimentsSelected, this.classList, largeSizeUpchargePrice, drinkSizing, familySizePrice, defaultItemPrice=productPrice, acceptsSubItems, secondDefault, defaultCondiments, scoopSizing)
     if(this.dataset.isdinner == "true") {
-        makeDinner()
+        makeDinner(this)
     }
 
     
